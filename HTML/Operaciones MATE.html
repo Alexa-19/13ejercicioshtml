@@ -1,0 +1,71 @@
+<!DOCTYPE html> <!---encabezado-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---botones de la calculadora-->
+    <link rel="stylesheet" type="text/css" href="/html/botones calculadora.css"> 
+    <script type="text/JavaScript" src="/sumar.js"></script>
+    <script type="text/JavaScript" src="/restar .js"></script>
+    <script type="text/JavaScript" src="/multi .js"></script>
+    <script type="text/JavaScript" src="/divi.js"></script>
+    <script type="text/JavaScript" src="modulo.js"></script>
+
+    <title>Calculadora</title>
+    
+</head>
+<body>
+    <center>
+        <!--nombre inicial-->
+        <pre><h1>Calculadora</h1></pre>
+    </center>
+    <div id="*">
+    <form name="Form1" >
+        <!--botones de la suma-->
+    <input id="bot1" type="text" name="numero1" size="20">
+    <input  type="text" name="numero2" size="10">
+    <input type="text" name="Resultado" size="10">
+    <input type="button" value="Sumar" onclick="sumar()">
+    </form>
+    
+    <form name="Form2" >
+         <!--botones de la resta-->
+        <input id="bot2" type="text" name="numero1" size="20">
+        <input type="text" name="numero2" size="10">
+        <input type="text" name="Resultado" size="10">
+        <input type="button" value="Restar" onclick="restar()">
+    </form>
+    
+    <form name="Form3" >
+         <!--botones de la multiplicacion-->
+        <input id="bot3" type="text" name="numero1" size="20">
+        <input type="text" name="numero2" size="10">
+        <input type="text" name="Resultado" size="10">
+        <input type="button" value="Multiplicar" onclick="multi()">
+    </form>
+
+     
+    <form name="Form4" >
+         <!--botones de la division-->
+        <input id="bot4" type="text" name="numero1" size="20">
+        <input type="text" name="numero2" size="10">
+        <input type="text" name="Resultado" size="10">
+        <input type="button" value="Dividir" onclick="divi()">
+    </form>
+
+    <form name="Form5">
+         <!--botones del modulo-->
+        <input id="bot5" type="text" name="numero1" size="20">
+        <input type="text" name="numero2" size="10">
+        <input type="text" name="resultado" size="10">
+        <input type="button" value="Modulo" onclick="modulo()">
+    </form>
+    </center>
+</div>
+</body>
+</html>
+
+
+
+    

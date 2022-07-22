@@ -1,0 +1,26 @@
+/*medida y color de fondo que llevara la calculadora*/
+*{
+    margin: 10px 0px 0px 10px;
+    font-size: 38px;
+    background-color: palevioletred;  
+}
+/*botones y medidas de los cuadros que muestra la calculadora*/
+#bot1{
+    margin-left: 1px;
+}
+/*botones y medidas de los cuadros que muestra la calculadora*/
+#bot2{
+    margin-left: 1px;
+}
+/*botones y medidas de los cuadros que muestra la calculadora*/
+#bot3{
+    margin-left: 1px;
+}
+/*botones y medidas de los cuadros que muestra la calculadora*/
+#bot4{
+    margin-left: -0px;
+}
+/*botones y medidas de los cuadros que muestra la calculadora*/
+#bot5{
+    margin-left: 1px;
+}

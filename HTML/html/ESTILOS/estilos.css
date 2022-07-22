@@ -1,0 +1,63 @@
+/*para que no queden espacios*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*el color y el tipo de letra que deseo que lleve*/
+body{
+    background-color: #f4f4f4;
+    color: #161616;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 0;
+}
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*el color que va a mostrar en el encabezado de la pagina*/
+#encabezado{
+    background-color: rgb(156, 6, 111);
+    color: black;
+    padding: 10px 0;
+}
+/*al navegar en la pagina se veran los colores elegidos*/
+#navegacion{
+    background-color: rgb(180, 17, 150);
+    color: black;
+    border-bottom: 2px solid #f4f4;
+}
+/*al navegar en la pagina se veran las medidas elegidas*/
+#navegacion ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+#navegacion li{
+    display: inline;
+}
+/*al navegar en la pagina se veran los colores y las medidas elegidas*/
+#navegacion a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px 20px 5px 0;
+} 
+/*mostrara nuestra imagen de fondo*/
+#presentacion{
+    background-image: url(../img/Fondo.jpg);
+    background-position: center center;
+    height: 700px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+/*la eleccion del color que debe llevar la letra*/
+#presentacion h2{
+    color: black;
+    font-size: 25px;
+    line-height: 1.6em;
+    padding-top: 20px;
+}
